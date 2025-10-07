@@ -1,6 +1,6 @@
 **Acknowledgement**
 
-This code is adapted from Yiyue Chen's work on Evolutionary Clustering in Federated Learning [https://arxiv.org/abs/2509.07198]
+This code for FedSSL-AMC is adapted from Yiyue Chen's work on Evolutionary Clustering in Federated Learning [https://arxiv.org/abs/2509.07198]
 
 **Libraries and their versions used for simulation**
 
@@ -14,7 +14,7 @@ This code is adapted from Yiyue Chen's work on Evolutionary Clustering in Federa
 - torchaudio==2.7.0+rocm6.3
 - torchvision==0.22.0+rocm6.3
 
-**Running the Simulation**
+**Running the simulations**
 
 - To generate the dataset, run python3 Generate_Dataset.py
 
