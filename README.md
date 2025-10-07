@@ -18,4 +18,6 @@ This code for FedSSL-AMC is adapted from Yiyue Chen's work on Evolutionary Clust
 
 - To Train the encoder, execute python3 Train_Encoder_Server.py
 
+- Note that python3 Train_Encoder_Server.py --SimCSE True implements the Sim CSE baseline
+
 - To evaluate the train encoder and train the personalized SVMs, run python3 Output_layer_Personlized_Main
