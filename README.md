@@ -1,5 +1,5 @@
 **Acknowledgement**
-This code is adapted from Yiyue Chen's work on Evolutionary Clustering in Federated Learning [https://github.com/YiyueC/Fed_evo_clustering](https://arxiv.org/abs/2509.07198)
+This code is adapted from Yiyue Chen's work on Evolutionary Clustering in Federated Learning [https://arxiv.org/abs/2509.07198]
 
 **Libraries and their versions used for simulation**
 
