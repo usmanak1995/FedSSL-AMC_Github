@@ -1,4 +1,4 @@
-**Libraries used for simulation**
+**Libraries and their versions used for simulation**
 
 - joblib==1.5.1
 - matplotlib==3.10.3
@@ -7,7 +7,6 @@
 - pillow==11.0.0
 - scikit-learn==1.6.1
 - scipy==1.15.3
-- six==1.17.0
 - torch==2.7.0+rocm6.3
 - torchaudio==2.7.0+rocm6.3
 - torchvision==0.22.0+rocm6.3
