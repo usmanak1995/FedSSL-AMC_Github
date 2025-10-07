@@ -7,7 +7,6 @@ This code is adapted from Yiyue Chen's work on Evolutionary Clustering in Federa
 - matplotlib==3.10.3
 - multiprocess==0.70.18
 - numpy==2.1.2
-- pillow==11.0.0
 - scikit-learn==1.6.1
 - scipy==1.15.3
 - torch==2.7.0+rocm6.3
