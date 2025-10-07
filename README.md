@@ -11,8 +11,6 @@ This code for FedSSL-AMC is adapted from Yiyue Chen's work on Evolutionary Clust
 - scikit-learn==1.6.1
 - scipy==1.15.3
 - torch==2.7.0+rocm6.3
-- torchaudio==2.7.0+rocm6.3
-- torchvision==0.22.0+rocm6.3
 
 **Running the simulations**
 
