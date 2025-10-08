@@ -49,6 +49,8 @@ def main(args):
     num_clients = args.num_clients
     gpu=args.gpu
 
+    save_path_encoder=save_path+save_path_encoder
+
 
 
     if SimCSE:
@@ -112,7 +114,7 @@ if __name__ == "__main__":
     parser.add_argument('--cuda', type=str2bool, default=True)
     parser.add_argument('--client_id', type=int, default=0)
     parser.add_argument('--gpu', type=int, default=0)
-    parser.add_argument('--save_path_encoder', type=str, default='Save_models/Encoder_weights_saved_CFO_het')
+    parser.add_argument('--save_path_encoder', type=str, default='Encoder_weights_saved_CFO_het')
     parser.add_argument('--data_dir', type=str, default='./CFO_Het_Mixed_Data/')
     parser.add_argument('--out_dir', type=str, default='./Stats_and_Plot/')
     parser.add_argument('--C', type=float, default=float('inf'))
