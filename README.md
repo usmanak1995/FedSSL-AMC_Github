@@ -21,5 +21,6 @@ This code for FedSSL-AMC is adapted from Yiyue Chen's work on Evolutionary Clust
   + -- num_clients sets the total number of clients, which should concur with the number of clients specified while generating the dataset. --gpu_list sets the list of gpus to utilize. --save_path_encoder specifies the name of the file the encoder weigths of the encoder are saved to. --num_rounds specifies the total number of rounds --save_path specifies the directory the models are saved to. --out_dir specifies the directory where the plots and accuracies are saved. 
   + Note that python3 Train_Encoder_Server.py --SimCSE True implements the Sim CSE baseline with --SimCSE_dpr specifying the corresponding dropout probability.
   + To resume from a checkpoint, add --start_from_saved_checkpoint True.
+  + This file executes Train_Encoder_Client.py for each client in parallel according to the number of gpus specified. For example, four gpus are needed to run the client script for four clients concurrently. 
 
 - To evaluate the train encoder and train the personalized SVMs, run python3 Output_layer_Personlized_Main
