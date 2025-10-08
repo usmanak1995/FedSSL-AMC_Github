@@ -41,6 +41,7 @@ def main(args):
     SimCSE_dpr=args.SimCSE_dpr
     data_dir=args.data_dir
     out_dir=args.out_dir     
+    save_path_encoder=save_path+save_path_encoder;
     # Create a pool of workers, one for each GPU
 
     os.makedirs(save_path, exist_ok=True)
@@ -122,7 +123,7 @@ if __name__ == "__main__":
     parser.add_argument('--save_path', type=str, default='Save_models/')
     parser.add_argument('--num_rounds', type=int, default=10)
     parser.add_argument('--gpu_list', type=int, nargs='+', default=[1,4,5,6])
-    parser.add_argument('--save_path_encoder', type=str, default='Save_models/Encoder_weights_saved_CFO_het')
+    parser.add_argument('--save_path_encoder', type=str, default='Encoder_weights_saved_CFO_het')
     parser.add_argument('--data_dir', type=str, default='./CFO_Het_Mixed_Data/')
     parser.add_argument('--SimCSE', type=str2bool, default=False)
     parser.add_argument('--SimCSE_dpr', type=float, default=0.1)
